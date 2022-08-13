@@ -1,0 +1,53 @@
+
+*{box-sizing: border-box;
+ }
+
+body{
+    background-color: grey;
+    margin:0;
+    padding: 0;
+}
+
+ h1{color: rgb(90, 90, 90);
+text-align: center;
+background-color: rgb(0, 0, 0);}
+
+
+
+ .flex-container{
+    display: flex;
+    height: 550px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: rgb(122, 129, 15);
+    padding: 1px;
+    border: 2px solid black;
+    background-image: url(http://31.media.tumblr.com/f639c4b4d8e6068fff9fe7eba1d89f29/tumblr_mrgkokJjvK1qzyeouo1_500.gif);
+ background-repeat:space;
+  }
+
+  .flex-container div {
+    background-color: rgb(90, 90, 90);
+    width: 130px;
+    margin: 60px;
+    text-align: center;
+    text-align: 14px ;
+    line-height: 100px;
+    font-size: 30px;
+    border: 2px solid ;
+  color: rgb(229, 255, 0);
+
+}
+.pie {
+        width: 100%;
+        height: 30px;
+        color: rgb(90, 90, 90);
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+      }
+
+@media (max-width: 700px) {
+        .flex-item-right, .flex-item-left {
+          flex: 100%;  }    
+        
+
